@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "multidim-3dvis"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "multidim_3dvis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.3.2"
+pandas = "^2.1.4"
+plotly = "^5.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
